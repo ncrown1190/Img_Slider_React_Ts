@@ -25,7 +25,7 @@ export default function Main() {
   //   ];
 
   const slides = [
-    { url: "./images/image-1.jpg", title: "beach" },
+    { url: "http://localhost:3000/images/image-1.jpg", title: "beach" },
     { url: "./images/image-2.jpg", title: "boat" },
     { url: "./images/image-3.jpg", title: "forest" },
     { url: "./images/image-4.jpg", title: "city" },
