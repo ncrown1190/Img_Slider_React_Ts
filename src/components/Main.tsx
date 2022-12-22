@@ -1,6 +1,29 @@
 import ImageSlider from "./ImageSlider";
 
 export default function Main() {
+  const slides = [
+    {
+      url: "https://images.unsplash.com/photo-1561571994-3c61c554181a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
+      title: "beach",
+    },
+    {
+      url: "https://images.unsplash.com/photo-1552353617-3bfd679b3bdd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      title: "boat",
+    },
+    {
+      url: "https://images.unsplash.com/photo-1440581572325-0bea30075d9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      title: "forest",
+    },
+    {
+      url: "https://images.unsplash.com/photo-1564501911891-74a27d949ee1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      title: "city",
+    },
+    {
+      url: "https://images.unsplash.com/photo-1534113414509-0eec2bfb493f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      title: "italy",
+    },
+  ];
+
   //   const slides = [
   //     {
   //       url: "https://images.unsplash.com/photo-1546768292-fb12f6c92568?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
@@ -24,16 +47,6 @@ export default function Main() {
   //     },
   //   ];
 
-  const slides = [
-    {
-      url: "./src/components/images/image-1.jpg",
-      title: "beach",
-    },
-    { url: "./images/image-2.jpg", title: "boat" },
-    { url: "./images/image-3.jpg", title: "forest" },
-    { url: "./images/image-4.jpg", title: "city" },
-    { url: "./images/image-5.jpg", title: "italy" },
-  ];
   // const slides = [
   //   { url: "http://localhost:3000/image-1.jpg", title: "beach" },
   //   { url: "http://localhost:3000/image-2.jpg", title: "boat" },
