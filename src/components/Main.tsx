@@ -33,8 +33,8 @@ export default function Main() {
   // ];
 
   const containerStyles = {
-    width: "500px",
-    height: "280px",
+    width: "600px",
+    height: "350px",
     margin: "0 auto",
   };
 
