@@ -26,7 +26,7 @@ export default function Main() {
 
   const slides = [
     {
-      url: "http://localhost:3000/src/components/images/image-1.jpg",
+      url: "http://localhost/src/components/images/image-1.jpg",
       title: "beach",
     },
     { url: "./images/image-2.jpg", title: "boat" },
